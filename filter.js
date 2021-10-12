@@ -36,4 +36,4 @@ const array2 = [
 const res = array1.filter((it) => !array2.find((itx) => it.name === itx.name));
 console.log(res);
 /* -------------------------------------------------- */
-/* commit kedua */
+/* commit ketiga */
