@@ -34,6 +34,6 @@ const array2 = [
 
 /* filter array of object by another array of object  */
 const res = array1.filter((it) => !array2.find((itx) => it.name === itx.name));
-console.log(res);
+console.log("ini hasil dari filter",res);
 /* -------------------------------------------------- */
 /* commit ketiga */
