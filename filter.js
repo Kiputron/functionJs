@@ -23,17 +23,27 @@ const array1 = [
 
 const array2 = [
 	{
-		id: 3,
 		name: "Salsa",
+		harga: 300,
+		perioode: "202021",
 	},
 	{
-		id: 4,
 		name: "Nabila",
+		id: 40000,
+		perioode: "202021",
+	},
+	{
+		name: "Nabila",
+		id: 9999,
+		perioode: "202022",
 	},
 ];
 
 /* filter array of object by another array of object  */
-const res = array1.filter((it) => !array2.find((itx) => it.name === itx.name));
+const res = array2.filter(
+	(it) => array1.find((itx) => it.name === itx.name) && it.perioode === "202022"
+);
 console.log(res);
 /* -------------------------------------------------- */
 /* commit ketiga */
+/* branch dev rifki */

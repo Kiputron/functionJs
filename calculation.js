@@ -55,4 +55,10 @@ const vanilla = array.map((it) =>
 	it.data.reduce((a, { price }) => a + price, 0)
 );
 const res = vanilla.reduce((a, b) => a + b, 0);
-console.log("hasil ->", res);
+console.log("hasil ->", vanilla);
+
+// const a = [{ total: 2000 }, { total: 2000 }, { total: 2000 }, { total: 2000 }];
+
+// const b = a.reduce((x, { total }) => x + total, 0);
+
+// console.log(b);
